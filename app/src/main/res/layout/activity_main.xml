@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ViewFlipper
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/v_flipper">
+
+            </ViewFlipper>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="bottom"
+                android:text="MNNIT SAC EVENTS"
+                android:textAlignment="center"
+                android:textColor="@color/greencolor"
+                android:textSize="24sp"></TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:id="@+id/cul"
+                    android:layout_width="0dp"
+                    android:layout_height="130dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/culrav"
+                    android:onClick="mnnitculrav"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/culrav"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="90dp"
+                        android:onClick="mnnitculrav"
+                        android:padding="2dp"
+                        android:text="Culrav"
+                        android:textAlignment="center"
+                        android:textColor="@color/greencolor"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="130dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/swagat">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="60dp"
+                        android:padding="5dp"
+                        android:textSize="18sp"
+                        android:textAlignment="center"
+                        android:id="@+id/swagat"/>
+                      <!--  android:textColor="@color/bluecolr"
+                        android:text="Swagat"-->
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="130dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/aviskar">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="60dp"
+                        android:padding="8dp"
+                        android:textSize="18sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/greencolor"
+                        android:text="@string/link"
+                        android:id="@+id/avishkar"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                android:weightSum="3"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="368dp">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="130dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:background="@color/pinkcolor">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="60dp"
+                        android:padding="8dp"
+                        android:textSize="15sp"
+                        android:textAlignment="center"
+                        android:background="@color/bluecolr"
+                        android:textColor="@color/greencolor"
+                        android:text="Athletic Meet"
+                        android:id="@+id/athletic"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="130dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:background="@color/pinkcolor">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="60dp"
+                        android:padding="8dp"
+                        android:textSize="18sp"
+                        android:textAlignment="center"
+                        android:background="@color/bluecolr"
+                        android:textColor="@color/greencolor"
+                        android:text="Josh n Jlal"
+                        android:id="@+id/josh"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="130dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical"
+                    android:background="@color/pinkcolor">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="60dp"
+                        android:padding="8dp"
+                        android:textSize="18sp"
+                        android:textAlignment="center"
+                        android:background="@color/bluecolr"
+                        android:textColor="@color/greencolor"
+                        android:text="Hack36"
+                        android:id="@+id/hack"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

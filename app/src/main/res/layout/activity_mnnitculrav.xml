@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mnnitculrav">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rangm"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/rangmanch"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="150dp"
+                        android:padding="8dp"
+                        android:text="Rangmanch"
+                        android:textAlignment="center"
+                        android:textColor="@color/greencolor"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rangsaa"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/rangsaazi"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="150dp"
+                        android:padding="8dp"
+                        android:text="Rangsaazi"
+                        android:textAlignment="center"
+                        android:textColor="@color/greencolor"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="368dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/spand"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/spandan"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="150dp"
+                        android:padding="8dp"
+                        android:text="Spandan"
+                        android:textAlignment="center"
+                        android:textColor="@color/greencolor"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/razz"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/razzmatazz"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="150dp"
+                        android:padding="8dp"
+                        android:text="Razzmatazz"
+                        android:textAlignment="center"
+                        android:textColor="@color/greencolor"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/lit"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/literary"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="150dp"
+                        android:padding="8dp"
+                        android:text="Literary"
+                        android:textAlignment="center"
+                        android:textColor="@color/greencolor"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/anun"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/anunaad"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="150dp"
+                        android:padding="8dp"
+                        android:text="Anunaad"
+                        android:textAlignment="center"
+                        android:textColor="@color/greencolor"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/dark"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/darkroom"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="150dp"
+                        android:padding="8dp"
+                        android:text="Darkroom"
+                        android:textAlignment="center"
+                        android:textColor="@color/greencolor"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/litt"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/litmuse"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="150dp"
+                        android:padding="8dp"
+                        android:text="Litmuse"
+                        android:textAlignment="center"
+                        android:textColor="@color/greencolor"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
